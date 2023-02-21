@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Moon Dance">
+    <link rel="icon" href="https://i.pinimg.com/originals/f5/86/e5/f586e5bed2c14da595a91ff823c23d24.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"> </script>
+    <title>Fashionista Boutique</title>
+
+    <style>
+        table {
+            width: 100%;
+            font-family: Moon Dance;
+        }
+
+        a {
+            color: black;
+            font-size: 30px;
+        }
+
+        a:hover {
+            text-decoration: none;
+            text-shadow: 2px 2px 2px white;
+            font-size: 31px;
+        }
+
+        a:link,
+        a:active,
+        a:visited {
+            text-decoration: none;
+        }
+
+        body {
+            background-image: url(https://4kwallpapers.com/images/wallpapers/gradient-background-backdrop-multicolor-colorful-vibrant-3440x1440-6723.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #Logo {
+            border-radius: 100px;
+        }
+
+        @keyframes Slide {
+            0% {
+                left: 0%;
+            }
+
+            20% {
+                left: 0%;
+            }
+
+            25% {
+                left: -100%;
+            }
+
+            45% {
+                left: -100%;
+            }
+
+            50% {
+                left: -200%;
+            }
+
+            70% {
+                left: -200%;
+            }
+
+            75% {
+                left: -300%;
+            }
+
+            95% {
+                left: -300%;
+            }
+
+            100% {
+                left: -400%;
+            }
+        }
+
+        #div1 {
+            overflow: hidden;
+        }
+
+        #div1 figure img {
+            width: 10%;
+            height: 500px;
+            float: left;
+
+        }
+
+        #div1 figure {
+            position: relative;
+            width: 250%;
+            margin: 0;
+            left: 0;
+            text-align: left;
+            font-size: 0;
+            animation: 30s Slide infinite;
+        }
+
+        .flip-box {
+            background-color: transparent;
+            width: 300px;
+            height: 200px;
+            border: 1px solid #f1f1f1;
+            perspective: 1000px;
+        }
+
+        .flip-box-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+        }
+
+        .flip-box:hover .flip-box-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flip-box-front,
+        .flip-box-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+        .flip-box-front {
+            background-color: #bbb;
+            color: black;
+        }
+
+        .flip-box-back {
+            background-color: #555;
+            color: white;
+            transform: rotateY(180deg);
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th> <img src="https://i.pinimg.com/originals/f5/86/e5/f586e5bed2c14da595a91ff823c23d24.jpg" height="130px"
+                    id="Logo"> </img> </th>
+            <th> <a href="Home.html">Home</a> </th>
+            <th> <a href="Contact_us.html">Contact us!</a> </th>
+            <th> <a href="Clothing.html">Clothing</a> </th>
+            <th> <a href="Shoes.html">Shoes</a> </th>
+            <th> <a href="Jewellery.html">Jewellery</a> </th>
+
+
+        </tr>
+
+    </table>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://www.drweil.com/wp-content/uploads/2016/12/health-wellness_balanced-living_healthy-living_do-clothes-make-the-man-or-woman_2716x1811_000089901251.jpg"
+                    class="d-block w-100" alt="..." style="height: 600px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Bright Yellow Coat</h5>
+                    <p>100,000 IDR,</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://s.yimg.com/ny/api/res/1.2/086R8cBgVeNkwgiogJy3Bg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ4MA--/https://media.zenfs.com/en/who_what_wear_581/e302a90b0c36c872532b87ce61ae099c"
+                    class="d-block w-100" alt="..." style="height: 600px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Brown Coat</h5>
+                    <p>120,000 IDR</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://cdn.cliqueinc.com/posts/212491/how-to-dress-to-flatter-your-body-according-to-science-212491-fb.700x0c.jpg"
+                    class="d-block w-100" alt="..." style="height: 600px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Soft Yellow Coat with Pink Buttons</h5>
+                    <p>100,000 IDR</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem; height: 400px;">
+                    <img src="https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGZhc2hpb258ZW58MHx8MHx8&w=1000&q=80" class="card-img-top" alt="..." height="250px" width="">
+                    <div class="card-body">
+                        <h5 class="card-title">Leather Jacket</h5>
+                        <p class="card-text">250,000 IDR</p>
+                        <button onclick="alert('Item successfully added to the cart')" class="btn btn-primary">Add to cart</button>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem; height: 400px;">
+                    <img src="https://awsimages.detik.net.id/community/media/visual/2022/06/29/turtleneck-street-style-1.jpeg?w=3015" class="card-img-top" alt="..." height="250px">
+                    <div class="card-body">
+                        <h5 class="card-title">Cool White Jumpsuit</h5>
+                        <p class="card-text">100,000 IDR</p>
+                        <button onclick="alert('Item successfully added to the cart')" class="btn btn-primary">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem; height: 400px;">
+                    <img src="https://i.pinimg.com/originals/dd/33/2c/dd332cb509c1b4dcdbde26418501227d.jpg" class="card-img-top" alt="..." height="250px">
+                    <div class="card-body">
+                        <h5 class="card-title">Colorful crop sweater</h5>
+                        <p class="card-text">300,000 IDR</p>
+                        <button onclick="alert('Item successfully added to the cart')" class="btn btn-primary">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem; height: 400px;">
+                    <img src="https://i.pinimg.com/236x/d5/ee/b5/d5eeb59a33217b50e6cd8f98c0eb136d.jpg" class="card-img-top" alt="..." height="250px" width="">
+                    <div class="card-body">
+                        <h5 class="card-title">Spripy Sweater</h5>
+                        <p class="card-text">150,000 IDR</p>
+                        <button onclick="alert('Item successfully added to the cart')" class="btn btn-primary">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem; height: 400px;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8fktLphlpbxlBKqPNl3P2fR3LyimHPJ7F-Q&usqp=CAU" class="card-img-top" alt="..." height="250px">
+                    <div class="card-body">
+                        <h5 class="card-title">Hot Red Sweater</h5>
+                        <p class="card-text">390,000 IDR</p>
+                        <button onclick="alert('Item successfully added to the cart')" class="btn btn-primary">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem; height: 400px;">
+                    <img src="https://www.wellandgood.com/wp-content/uploads/2018/12/GettyImages-1063191896.jpg" class="card-img-top" alt="..." height="250px">
+                    <div class="card-body">
+                        <h5 class="card-title">Cool Red Jacket</h5>
+                        <p class="card-text">300,000 IDR</p>
+                        <button onclick="alert('Item successfully added to the cart')" class="btn btn-primary">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <footer style="padding: 100px;"> 
+
+            <center>
+            All rights researved by Fashionista Boutique
+            <br>
+            Amazing website created by Manavi Khanna and Arpita Ma'am :)
+            <br>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </footer>
+    </center>
+    
+    </div>
+
+
+
+
+</body>
+
+</html>

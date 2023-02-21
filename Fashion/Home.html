@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Moon Dance">
+    <link rel="icon" href="https://i.pinimg.com/originals/f5/86/e5/f586e5bed2c14da595a91ff823c23d24.jpg">
+    <title>Fashionista Boutique</title>
+
+    <style>
+        table {
+            width: 100%;
+            font-family: Moon Dance;
+        }
+
+        a {
+            color: black;
+            font-size: 30px;
+        }
+
+        a:hover {
+            text-decoration: none;
+            text-shadow: 2px 2px 2px white;
+            font-size: 31px;
+        }
+
+        a:link,
+        a:active,
+        a:visited {
+            text-decoration: none;
+        }
+
+        body {
+            background-image: url(https://4kwallpapers.com/images/wallpapers/gradient-background-backdrop-multicolor-colorful-vibrant-3440x1440-6723.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #Logo {
+            border-radius: 100px;
+        }
+
+        @keyframes Slide {
+            0% {
+                left: 0%;
+            }
+
+            20% {
+                left: 0%;
+            }
+
+            25% {
+                left: -100%;
+            }
+
+            45% {
+                left: -100%;
+            }
+
+            50% {
+                left: -200%;
+            }
+
+            70% {
+                left: -200%;
+            }
+
+            75% {
+                left: -300%;
+            }
+
+            95% {
+                left: -300%;
+            }
+
+            100% {
+                left: -400%;
+            }
+        }
+
+        #div1 {
+            overflow: hidden;
+        }
+
+        #div1 figure img {
+            width: 10%;
+            height: 500px;
+            float: left;
+
+        }
+
+        #div1 figure {
+            position: relative;
+            width: 250%;
+            margin: 0;
+            left: 0;
+            text-align: left;
+            font-size: 0;
+            animation: 30s Slide infinite;
+        }
+
+        .flip-box {
+            background-color: transparent;
+            width: 300px;
+            height: 200px;
+            border: 1px solid #f1f1f1;
+            perspective: 1000px;
+        }
+
+        .flip-box-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+        }
+
+        .flip-box:hover .flip-box-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flip-box-front,
+        .flip-box-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+        .flip-box-front {
+            background-color: #bbb;
+            color: black;
+        }
+
+        .flip-box-back {
+            background-color: #555;
+            color: white;
+            transform: rotateY(180deg);
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th> <img src="https://i.pinimg.com/originals/f5/86/e5/f586e5bed2c14da595a91ff823c23d24.jpg" height="130px"
+                    id="Logo"> </img> </th>
+            <th> <a href="Home.html">Home</a> </th>
+            <th> <a href="Contact_us.html">Contact us!</a> </th>
+            <th> <a href="Clothing.html">Clothing</a> </th>
+            <th> <a href="Shoes.html">Shoes</a> </th>
+            <th> <a href="Jewellery.html">Jewellery</a> </th>
+
+
+        </tr>
+
+    </table>
+
+    <div id="div1">
+        <figure>
+            <img src="https://m.media-amazon.com/images/I/71U0Wo-rizL._UY550_.jpg">
+            <img
+                src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/0cfe3291-f640-4b65-94fd-2f29cf67b85a/air-max-90-womens-shoes-2ZsM2w.png">
+            <img src="https://m.media-amazon.com/images/I/61+b75uTUlL._UL1500_.jpg">
+            <img
+                src="https://cms-live.pandora.net/resource/responsive-image/2077502/m64-hero-module-full-width/xs/3/studded-chain-hero.jpg">
+            <img
+                src="https://dynamic.zacdn.com/9IsXKC845JT3-T9fOOgT7IY281A=/fit-in/346x500/filters:quality(90):fill(ffffff)/https://static-id.zacdn.com/p/her-jewellery-4348-5645113-1.jpg">
+            <img
+                src="https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/z/h/9/-original-imaghxfjq5zzyhhx.jpeg?q=70">
+            <img src="https://i.pinimg.com/originals/4f/c9/b7/4fc9b741268f7c6d1ae8d1171f66543a.jpg">
+            <img
+                src="http://cdn.shopify.com/s/files/1/1018/4207/products/1_e165f477-83f0-40dc-850f-afbeb2693a63.jpg?v=1569290619">
+
+
+        </figure>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div id="div2">
+        <h2 style="font-family: Moon Dance; font-size: 80px; text-align: center;"> About Us! </h2>
+        <table>
+            <tr>
+                <th>
+                    <img src="https://cdn.shopify.com/s/files/1/2343/4045/products/womens-cowboy-suede-matt-fashion-designer-biker-jackets-womens-fashion-designer-jackets-womens-fashion-designer-plus-size-clothes-2_800x.jpg?v=1649671574"
+                        height="500px" width="500px" style="float: left;">
+                </th>
+                <th>
+                    <h4 style="font-size: 30px;"> Simple, innovative and progressive, Fashionista Boutique is
+                        reinventing an entirely fashion-savvy approach towards style. Fashionista Boutique is a
+                        fast-growing Indian brand in women's apparel that owns a portfolio of various categories
+                        including workwear, casual wear, eveningwear and occasion wear. It caters to one of the
+                        strongest and largest section of urban women that falls in the age group of 20 to 60 years.
+                        Eclectic, contemporary, romantic—the brand represents the pinnacle of urban dressing and is
+                        unsurpassed for its quality and attention to detail. Fashionista Boutique, as a brand is
+                        inspired by Urban Indian women who aspire to express themselves as modern citizens of the world.
+                    </h4>
+                </th>
+            </tr>
+        </table>
+
+        <h2 style="font-family: Moon Dance; font-size: 80px; text-align: center;"> The Company </h2>
+        <table>
+            <tr>
+                <th>
+                    <h4 style="font-size: 30px;"> Coming from a strong experience of manufacturing for global brands,
+                        the company has its own manufacturing units with a capacity of producing over 100,000 units per
+                        month. The company excels in end-to-end supply chain solutions, from product design and
+                        development, raw material sourcing, outsourcing vendors, production management and quality
+                        control to in-country logistics, global freight management and e-logistics. The state of the art
+                        infrastructure also includes digital printing and computer embroidery machines to offer the
+                        quality of global standards. The company has its in-house design team and works with multiple
+                        vendors locally and internationally. With clear expansion plans, both locally and globally, the
+                        company is dedicated to investing in the future with the aspiration to find a place in every
+                        urban woman's wardrobe. </h4>
+                </th>
+                <th>
+                    <img src="https://cf.ltkcdn.net/womens-fashion/images/std-xs/231137-340x476-biker_babe.jpg"
+                        height="500px" width="500px" style="float: left;">
+
+                </th>
+            </tr>
+        </table>
+    </div>
+
+    <div id="div3">
+        <table cellpadding="10px">
+            <tr>
+                <th>
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="https://cdn.shopify.com/s/files/1/2440/5795/products/IMG_7536_ebcaaeb6-ab8d-4bd1-843d-9c30134d9fcd_2048x.JPG?v=1562821274"
+                                    height="200px" width="200px">
+                            </div>
+                            <div class="flip-box-back">
+                                <img src="https://i.pinimg.com/474x/b2/bb/10/b2bb10a7c49d9d545424a8a344973b8f.jpg"
+                                    height="200px" width="200px">
+                            </div>
+
+                        </div>
+                    </div>
+                </th>
+
+
+                <th>
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="https://cdn.cliqueinc.com/posts/302371/new-york-street-style-shopping-302371-1663722829390-main.700x0c.jpg""
+                                    height="200px" width="200px">
+                            </div>
+                            <div class="flip-box-back">
+                                <img src="https://i.pinimg.com/originals/f5/86/e5/f586e5bed2c14da595a91ff823c23d24.jpg"height="200px" width="200px">
+                            </div>
+
+                        </div>
+                    </div>   
+                </th>
+
+                <th>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="https://cdn.cliqueinc.com/posts/302371/new-york-street-style-shopping-302371-1663722829390-main.700x0c.jpg""
+                                    height="200px" width="200px">
+                            </div>
+                            <div class="flip-box-back">
+                                <img src="https://img.freepik.com/premium-vector/letter-o-floral-alphabet_156827-152.jpg"height="200px" width="200px">
+                            </div>
+
+                        </div>
+                    </div>   
+                </th>
+                </tr>
+
+        
+
+                <tr>
+
+                <th>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="https://static.independent.co.uk/2021/09/12/10/GettyImages-1235150777.jpg?width=1200"
+                                    height="200px" width="200px">
+                            </div>
+                            <div class="flip-box-back">
+                                <img src="https://thumbs.dreamstime.com/b/graphic-floral-alphabet-letter-s-black-white-flowers-bouquet-composition-unique-collection-wedding-invites-decoration-176112932.jpg"height="200px" width="200px">
+                            </div>
+
+                        </div>
+                    </div>   
+                </th>
+
+                <th>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="https://static.independent.co.uk/2021/09/12/10/GettyImages-1235150777.jpg?width=1200"
+                                    height="200px" width="200px">
+                            </div>
+                            <div class="flip-box-back">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU1FO-Wy7hgO9AGLQeTXXpLXjUn-_f4lKN3kZBBcgOTM7Z2iZmiaRIGOP4__l4b26UlP0&usqp=CAU"height="200px" width="200px">
+                            </div>
+
+                        </div>
+                    </div>   
+                </th>
+
+                <th>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="https://static.independent.co.uk/2021/09/12/10/GettyImages-1235150777.jpg?width=1200"
+                                    height="200px" width="200px">
+                            </div>
+                            <div class="flip-box-back">
+                                <img src="https://thumbs.dreamstime.com/b/graphic-floral-alphabet-letter-s-black-white-flowers-bouquet-composition-unique-collection-wedding-invites-decoration-176112932.jpg"height="200px" width="200px">
+                            </div>
+
+                        </div>
+                    </div>   
+                </th>
+                
+                
+                    
+                
+            </tr>
+
+        </table>
+
+        <footer style="padding: 100px;"> 
+
+            <center>
+            All rights researved by Fashionista Boutique
+            <br>
+            Amazing website created by Manavi Khanna and Arpita Ma'am :)
+            <br>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </footer>
+    </center>
+
+    </div>
+
+
+</body>
+
+</html>
